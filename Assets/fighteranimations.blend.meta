@@ -1,44 +1,41 @@
 fileFormatVersion: 2
-guid: 0ca9a0dbc832e3c45b3cd13e37679575
+guid: a135497c45b4bd94ba9812a20bd7fa20
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
   - first:
-      74: 4781951162920444690
-    second: Armature|ArmatureAction
+      74: 1989289236423521904
+    second: Default Take
   - first:
-      74: -1422011007694221501
-    second: Armature|ArmatureAction.001
+      74: -6801083763907307519
+    second: Block
   - first:
-      74: 6093225430303232669
-    second: Armature|ArmatureAction.002
+      74: -6874835666045356664
+    second: CenterHit
   - first:
-      74: 4419341551624498096
-    second: Armature|ArmatureAction.003
+      74: -3100369314251171874
+    second: Idle
   - first:
-      74: 5862543501114407046
-    second: Armature|Armature|Take 001|BaseLayer
+      74: 2106416897383480915
+    second: LeftHit
   - first:
-      74: 6965887883897901302
-    second: Armature|Armature|Take 001|BaseLayer.001
+      74: 9107694353739410973
+    second: LeftJab
   - first:
-      74: 4805745386581417271
-    second: Armature|Block
+      74: -3691347101967571613
+    second: RightHit
   - first:
-      74: -8945691123924629249
-    second: Armature|Idle
+      74: -6416269633800229187
+    second: RightJab
   - first:
-      74: -7055272498874612816
-    second: Armature|LeftJab
+      74: 5826205891906579322
+    second: WalkCycleTest
   - first:
-      74: 1435348235353137022
-    second: Armature|RightJab
+      74: -6337207191384161919
+    second: WalkForward
   - first:
-      74: -1608659492543829200
-    second: Armature|RightJab.001
-  - first:
-      74: 4491217715347482132
-    second: Armature|WalkCycleTest
+      74: -591692918647068772
+    second: WalkRight
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -68,11 +65,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|ArmatureAction
-      takeName: Armature|ArmatureAction
-      internalID: 4781951162920444690
-      firstFrame: 0
-      lastFrame: 1
+      name: Default Take
+      takeName: Default Take
+      internalID: 1989289236423521904
+      firstFrame: -1
+      lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -97,11 +94,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|ArmatureAction.001
-      takeName: Armature|ArmatureAction.001
-      internalID: -1422011007694221501
-      firstFrame: 0
-      lastFrame: 1
+      name: Block
+      takeName: Block
+      internalID: -6801083763907307519
+      firstFrame: -1
+      lastFrame: 11
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -126,11 +123,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|ArmatureAction.002
-      takeName: Armature|ArmatureAction.002
-      internalID: 6093225430303232669
-      firstFrame: 0
-      lastFrame: 1
+      name: CenterHit
+      takeName: CenterHit
+      internalID: -6874835666045356664
+      firstFrame: -1
+      lastFrame: 23
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -155,11 +152,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|ArmatureAction.003
-      takeName: Armature|ArmatureAction.003
-      internalID: 4419341551624498096
-      firstFrame: 0
-      lastFrame: 1
+      name: Idle
+      takeName: Idle
+      internalID: -3100369314251171874
+      firstFrame: -1
+      lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -184,11 +181,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Armature|Take 001|BaseLayer
-      takeName: Armature|Armature|Take 001|BaseLayer
-      internalID: 5862543501114407046
-      firstFrame: 0
-      lastFrame: 1
+      name: LeftHit
+      takeName: LeftHit
+      internalID: 2106416897383480915
+      firstFrame: -1
+      lastFrame: 23
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -213,11 +210,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Armature|Take 001|BaseLayer.001
-      takeName: Armature|Armature|Take 001|BaseLayer.001
-      internalID: 6965887883897901302
-      firstFrame: 0
-      lastFrame: 1
+      name: LeftJab
+      takeName: LeftJab
+      internalID: 9107694353739410973
+      firstFrame: -1
+      lastFrame: 9
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -242,11 +239,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Block
-      takeName: Armature|Block
-      internalID: 4805745386581417271
-      firstFrame: 0
-      lastFrame: 10
+      name: RightHit
+      takeName: RightHit
+      internalID: -3691347101967571613
+      firstFrame: -1
+      lastFrame: 23
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -271,11 +268,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Idle
-      takeName: Armature|Idle
-      internalID: -8945691123924629249
-      firstFrame: 0
-      lastFrame: 32
+      name: RightJab
+      takeName: RightJab
+      internalID: -6416269633800229187
+      firstFrame: -1
+      lastFrame: 15
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -300,11 +297,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|LeftJab
-      takeName: Armature|LeftJab
-      internalID: -7055272498874612816
-      firstFrame: 0
-      lastFrame: 10
+      name: WalkCycleTest
+      takeName: WalkCycleTest
+      internalID: 5826205891906579322
+      firstFrame: -1
+      lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -329,11 +326,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|RightJab
-      takeName: Armature|RightJab
-      internalID: 1435348235353137022
-      firstFrame: 0
-      lastFrame: 16
+      name: WalkForward
+      takeName: WalkForward
+      internalID: -6337207191384161919
+      firstFrame: -1
+      lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -358,40 +355,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|RightJab.001
-      takeName: Armature|RightJab.001
-      internalID: -1608659492543829200
-      firstFrame: 0
-      lastFrame: 16
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|WalkCycleTest
-      takeName: Armature|WalkCycleTest
-      internalID: 4491217715347482132
-      firstFrame: 0
-      lastFrame: 32
+      name: WalkRight
+      takeName: WalkRight
+      internalID: -591692918647068772
+      firstFrame: -1
+      lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
