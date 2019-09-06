@@ -11,7 +11,7 @@ public class CameraStabilizer : MonoBehaviour
     void Update()
     {
         var euler = transform.eulerAngles;
-		Debug.Log(euler);
+		//Debug.Log(euler);
 		if (Mathf.Sin(euler.x * Mathf.Deg2Rad) > Mathf.Sin(45 * Mathf.Deg2Rad))
 			euler.x = 45;
 		else if (Mathf.Sin(euler.x * Mathf.Deg2Rad) < Mathf.Sin(-45 * Mathf.Deg2Rad))
